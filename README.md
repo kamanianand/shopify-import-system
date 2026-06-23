@@ -112,7 +112,6 @@ php artisan optimize:clear
 
 ### Step 10: Build Frontend Assets
 #Compile CSS and JavaScript assets.
-# For production (recommended)
 ```bash
 npm run build
 
@@ -122,7 +121,6 @@ npm run dev
 
 ### Step 11: Run Queue Worker (IMPORTANT!)
 #Open a new terminal window and keep it running.
-# Navigate to your project directory in the new terminal
 ```bash
 cd laravel-shopify-import
 
@@ -132,7 +130,6 @@ php artisan queue:work
 
 ### Step 12: Start the Application
 #Open another new terminal window and start the Laravel development server.
-# Navigate to your project directory in the new terminal
 ```bash
 cd laravel-shopify-import
 
@@ -146,10 +143,7 @@ http://localhost:8000
 
 Testing the Application
 Visit http://localhost:8000
-Click "New Import" button
-Click "Choose CSV File" or drag and drop your CSV file
-Click "Upload & Process"
-Wait for success message
+ and Click "New Import" button Click "Choose CSV File" or drag and drop your CSV file Click "Upload & Process" Wait for success message
 
 
 
