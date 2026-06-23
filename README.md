@@ -23,15 +23,10 @@ Clone the project from GitHub to your local machine.
 ```bash
 # Clone the repository
 git clone https://github.com/kamanianand/shopify-import-system.git
-```
-
-# Navigate into the project directory
-```bash
 cd laravel-shopify-import
 ```
 
 ### Step 2: Install PHP Dependencies
-# Install all required PHP packages using Composer.
 ```bash
 composer install
 ```
@@ -56,7 +51,6 @@ php artisan key:generate
 
 ### Step 6: Create Database
 #Create the MySQL database for your application.
-# Login to MySQL
 ```bash
 mysql -u root -p
 
@@ -71,7 +65,6 @@ exit;
 
 ### Step 7: Update Environment Configuration
 #Open the .env file in your code editor and update these values:
-# Open .env file (use any text editor)
 ```bash
 code .env
 #Update these lines:
